@@ -204,4 +204,10 @@ export namespace IEsploraApi {
     block_height: number;
     pos: number;
   }
+
+  export interface BlockStatus {
+    in_best_chain: boolean;
+    next_best?: string;
+    height?: number;
+  }
 }
