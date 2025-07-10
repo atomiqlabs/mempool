@@ -198,4 +198,10 @@ export namespace IEsploraApi {
     },
     value: number;
   }
+
+  export interface MerkleProof {
+    merkle: string[];
+    block_height: number;
+    pos: number;
+  }
 }
